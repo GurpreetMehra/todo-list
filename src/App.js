@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import InputText from './component/Input/InputText';
 import TaskList from './component/TaskList/TaskList';
-console.log('Checking github commits');
 
 function App() {
      const [notStartedList, setNotStartedList] = useState([
